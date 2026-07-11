@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+  </head>
+  <body
+    style="
+      background-color: #011f38;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: rgb(250, 246, 5);
+    "
+  ></body>
+  <h1>Pondok IT Registration</h1>
+  <h2>Bacalah baik-baik sebelum mengisi</h2>
+  <hr />
+  <h1>DATA DIRI</h1>
+  <h3>FOTO ANDA</h3>
+  <img src="assets/logo1.jpg" alt="assets/logo2.jpg" width="300" height="300" />
+
+  <br />
+  <form action="/action_page.php">
+    <label for="fname">Upload File:</label>
+    <input type="file" id="fname" name="fname" value="John" />
+  </form>
+  <br />
+
+  <h4>
+    Hanya menerima file gambar dengan format <br />
+    jpg, .jpeg, atau .png. Ukuran file maksimal 2MB.
+  </h4>
+  <hr />
+  <form action="https://pendaftaran.pondokit.com/form-register1" method="post">
+    <label for="Nl">Nama Lengkap:</label><br />
+    <input type="text" id="Nl" name="Nl" value="" /><br />
+  </form>
+  <label for="tahun">Tahun Pendaftaran</label>
+  <br />
+  <select id="tahun" name="tahun">
+    <option value="">-- Pilih Tahun --</option>
+    <option value="2026">2026</option>
+    <option value="2027">2027</option>
+    <option value="2028">2028</option>
+    <option value="2029">2029</option>
+  </select>
+  <br />
+  <label for="gender">Jenis Kelamin</label>
+  <br />
+  <select id="gender" name="gender">
+    <option value="">-- Pilih --</option>
+    <option value="Laki-laki">laki-laki</option>
+    <option value="Perempuan">perempuan</option>
+  </select>
+  <form action="https://pendaftaran.pondokit.com/form-register1" method="post">
+    <label for="cc">Cita-cita:</label><br />
+    <input type="text" id="cc" name="cc" value="" /><br />
+  </form>
+  <form action="https://pendaftaran.pondokit.com/form-register1" method="post">
+    <label for="ar">Alamat Rumah:</label><br />
+    <input type="text" id="ar" name="ar" value="" /><br />
+  </form>
+  <body></body>
+</html>
