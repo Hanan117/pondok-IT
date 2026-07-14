@@ -1,0 +1,50 @@
+* {
+  background-color: #051142;
+  font-style: oblique;
+  color: white;
+  text-align: center;
+}
+
+.profile {
+  color: rgb(21, 207, 201);
+}
+
+#nama {
+  color: rgb(241, 107, 30);
+}
+
+h2 {
+  color: aqua;
+  
+}
+
+.table {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hobi {
+  justify-content: center;
+  text-align: left;
+  list-style-position: inside;
+}
+
+.hobi1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.hobi2,
+.skill {
+  text-align: left;
+}
+
+
+.kontak {
+  display:inline-flexbox;
+  justify-content:center;
+  align-items:center;
+  gap: 50px;
+}
