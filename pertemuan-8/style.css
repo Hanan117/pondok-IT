@@ -1,0 +1,62 @@
+body {
+  background-image: url(./assets/bgat.png);
+  background-attachment: scroll;
+}
+
+.hero {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: #ffff33;
+  font-size: 15px;
+  margin-inline: 250px;
+}
+
+.adv {
+  color: #9f000f;
+  text-align: center;
+  font-size: larger;
+}
+
+.ou {
+  color: #9f000f;
+  font-size: larger;
+}
+
+.cat {
+  display: flex;
+}
+
+.snake {
+  flex: 1px;
+}
+
+.dog {
+  flex: 1px;
+  font-size: larger;
+}
+
+.hk {
+  color: #9f000f;
+  font-size: larger;
+}
+
+.eb {
+  color: #9f000f;
+}
+
+.hb {
+  color: #9f000f;
+}
+
+.wc {
+  color: #9f000f;
+}
+
+button {
+  background-color: rgb(85, 4, 79);
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
