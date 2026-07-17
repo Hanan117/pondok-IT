@@ -23,15 +23,15 @@ body {
 }
 
 .cat {
-  display: flex;
+  display:flex;
 }
 
-.snake {
-  flex: 1px;
+.rabbit {
+  flex: 1;
 }
 
 .dog {
-  flex: 1px;
+  flex: 1;
   font-size: larger;
 }
 

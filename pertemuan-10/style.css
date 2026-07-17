@@ -1,0 +1,68 @@
+body {
+   
+   background-image: url(./assets/bg.png);
+   
+
+}
+
+.id {
+    text-align: center;
+    color: #FF0000;
+}
+
+.id span {
+    color: #fbf8f8;
+}
+
+
+.gg {
+    text-align: center;
+    margin: auto;
+    filter: blur(1px);
+    opacity: 0.5;
+    
+}
+
+
+.card {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    background:  linear-gradient(90deg, #FF0000, #FFFFFF);
+    padding-bottom: 50px;
+    border: black;
+    border-radius: 30px;
+    border-top-left-radius: 30px;
+
+    
+}
+
+.card:hover {
+    transform: translate(-15px);
+}
+
+
+button {
+    margin: 30px;
+    color: black;
+    background-color: #fbf8f8;
+    cursor: pointer;
+}
+
+button:hover, a:hover {
+  opacity: 0,7;
+}
+
+
+
+  
+
+
+
+
+    
+    
+   
+
