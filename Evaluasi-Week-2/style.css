@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 80px;
+  background-color: rgba(255, 255, 255);
+  border-bottom: 2px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .navbar-logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.navbar .navbar-logo span {
+  color: orangered;
+}
+
+.navbar .navbar-nav a {
+  color: black;
+  font-weight: 550;
+  display: inline-block;
+  font-size: 20px;
+  padding: 4px;
+  margin: 1px;
+}
+
+.navbar .navbar-nav a:hover {
+  color: orangered;
+}
+
+.navbar .navbar-btn {
+  background-color: orangered;
+  color: white;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 40px;
+}
+
+/* isi */
+.hero {
+  display: flex;
+  gap: 100px;
+  justify-content: left;
+  align-items: center;
+  background: linear-gradient(90deg, #b1c81a, #164ec6);
+  margin: auto;
+  padding: 200px 200px 80px;
+  width: 100%;
+}
+
+.hero .hero-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero .hero-text p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.hero .hero-btn h3 {
+  background: #164ec6;
+  color: white;
+  border-radius: 10px;
+  padding: 12px 12px;
+  width: 200px;
+}
+
+.hero .hero-image img {
+  width: 320px;
+}
+
+/* main.card2 */
+
+.card {
+  display: flex;
+  flex: 1;
+  text-align: justify;
+}
+
+.pu {
+  text-align: center;
+}
+
+.pu span {
+  color: orangered;
+}
+
+.card .card1 {
+  max-width: 290px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 2px 1px 30px 1px;
+  text-align: center;
+}
+
+.card .price span {
+  color: orangered;
+}
+
+.card .btn button {
+  color: white;
+  background-color: orangered;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.card .card2 {
+  max-width: 290px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 2px 1px 30px 1px;
+  text-align: center;
+}
+
+.card .card3 {
+  max-width: 250px;
+  padding-bottom: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 1px 1px 30px 1px;
+  text-align: center;
+}
+
+.main3 {
+  display: flex;
+  justify-content: space-between;
+  justify-self: left;
+  margin: auto;
+  padding: 5px 200px 0px 200px;
+  font-size: large;
+  gap: 40px;
+  background-color: rgb(244, 176, 221);
+}
+
+.tk {
+  margin: auto;
+  padding-right: 10px;
+}
+
+.main3 .tk span {
+  color: orangered;
+}
+
+.hk {
+  text-align: center;
+  font-size: 28px;
+}
+
+.hk span {
+  color: orangered;
+  font-size: 28px;
+}
+
+.contact-item {
+  display: flex;
+  flex: 1;
+  text-align: justify;
+  margin: 0px;
+  font-size: larger;
+  padding: 10px;
+}
+
+.contact-item .adress {
+  font-size: 18px;
+  margin: auto;
+  padding: 80px;
+  text-align: left;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item .adress i {
+  font-size: 18px;
+  background: orangered;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.contact-item .adress p {
+  flex: 1;
+  text-align: left;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+  background-color: rgb(0, 2, 50);
+  color: white;
+  padding: 35px;
+}
+
+.ef {
+  text-align: center;
+  justify-content: center;
+}
+
+.ef form {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 19px;
+  padding: 2px;
+  width: auto;
+}
+
+.a input {
+  text-align: center;
+  font-size: 17px;
+}
+
+.b input {
+  text-align: center;
+  font-size: 17px;
+}
+
+.c textarea {
+  text-align: center;
+  font-size: 17px;
+}
+
+
+.d button {
+  text-align: center;
+  font-size: 17px;
+  background-color: orangered;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
