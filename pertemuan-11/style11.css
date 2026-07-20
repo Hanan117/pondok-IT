@@ -1,0 +1,33 @@
+body {
+  background-image: url(./assets/fotobg.png);
+}
+
+section {
+  background-color: rgba(247, 244, 244);
+  width: auto;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin: 250px 100px;
+  padding: 0px 0px 0px 0px;
+  gap: 40px;
+  font-size: 17px;
+  border: 10px solid transparent;
+  border-color: red;
+}
+
+span {
+  color: red;
+}
+
+.d {
+  text-align: right;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
