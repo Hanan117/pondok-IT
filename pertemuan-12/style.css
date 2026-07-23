@@ -78,7 +78,7 @@ body {
 }
 
 .modal {
-  display: none;
+  display: none ;
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -149,6 +149,23 @@ h2 {
 h2 span {
   color: #1e3a8a;
 }
+
+
+h2::after {
+  content: ""; 
+  position: absolute;
+  bottom: -100px;
+  left: 160px;
+  width: 50px; 
+  height: 4px; 
+  background-color: rgb(84, 76, 238);
+}
+
+
+
+
+
+
 
 th,
 td {
